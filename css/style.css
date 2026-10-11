@@ -5,12 +5,24 @@ label {
 }
 input
 textarea {
-    dispplay: block;
+    display: block;
     margin-top: 0.25rem;
-    width: 1005
+    width: 1005;
     max-width: 480px;
 }
 button[type="submit"] {
   display: block;
-  margin-top: 2rem;
+  margin-top: 2rem; 
+  background-color: #1b6f78;
+  color: #ffffff;
+  font-size: 1.25rem;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+}
+form {
+  background-color: #eaf6f6;
+  padding: 32px;
+  border-radius: 8px;
+  max-width: 480px;
 }
